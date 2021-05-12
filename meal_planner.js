@@ -10,11 +10,11 @@ return meal[Math.floor(Math.random()*meal.length)]
  let randomMeal = `For breakfast eat: ${selector(breakfast)} \nFor lunch eat: ${selector(lunch)} \nFor dinner eat: ${selector(dinner)} `
 
   function displayPlan(plan) {
-    const ascci= "  :] ^_^ {: \n"
+    const ascii= "  :] ^_^ {: \n"
   const emoji = " :p :) <3 n_n \n \n"
   const hearts = "\n <3 <3 <3 <3 <3 <3"
     const showPlan = randomMeal
-    console.log(ascci + emoji + showPlan + hearts)
+    console.log(ascii + emoji + showPlan + hearts)
   }
   
   displayPlan(randomMeal);
